@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>My Weather App</h1>
+    <div
+      style="
+        margin: 0px auto;
+        width: 500px;
+        background-color: rgba(0, 0, 0, 0.091);
+        display: flex;
+        justify-content: space-around;
+      "
+    >
+      <h3 class="city"></h3>
+      <h3 class="weather"></h3>
+      <h3 class="h4"></h3>
+    </div>
+    <div class="footer" style="margin: 10px auto; width: 50px">
+     <form >
+
+         <input type="text" class="location" />
+
+         <input type="submit" class="btn">
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./js.js"></script>
+  </body>
+</html>
